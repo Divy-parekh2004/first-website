@@ -131,7 +131,7 @@ select {
 
 #formsection {
     height: 650px;
-    background-color: rgb(167, 138, 195);
+    /* background-color: rgb(167, 138, 195); */
     background: center /cover no-repeat url('thedp.jpg');
 }
 
