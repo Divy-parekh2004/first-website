@@ -80,6 +80,14 @@ select:active{
 
 #socialmediasection {
     padding: 10px;
+
+    text-align:center;
+    padding:20px;
+}
+
+#socialmediasection {
+    padding:10px;
+
     background-color: rgb(222, 192, 255);
     /* height: 150px; */
 }
@@ -96,7 +104,11 @@ select:active{
 } */
 
 .socialicon ul {
+
     display: flex;
+
+    display:flex;
+
     flex-wrap: wrap;
     background-color: rgb(222, 192, 255);
 }
@@ -132,19 +144,15 @@ select {
 .socialicon ul li .fab:hover {
     color: blue;
     transform: scale(1.2);
+
+    transform:scale(1.2);
+
 }
 
 #formsection {
     /* height: 650px; */
     /* background-color: rgb(167, 138, 195); */
     background: center /cover no-repeat url('thedp.jpg');
-}
-
-input,
-textarea {
-    display: block;
-    border: 2px solid black;
-    outline: none;
 }
 
 form {
@@ -155,6 +163,7 @@ form {
 input,textarea {
     /* display: block; */
     width: 25%;
+    width:25%;
     background-color: white;
     padding: 10px;
     margin: 10px auto;
@@ -162,8 +171,8 @@ input,textarea {
     outline: none;
     border: 2px solid black;
     border-radius: 10px;
+    border-radius: 10px;
 }
-
 .btn {
     display: block;
     margin: 4px auto;
@@ -173,11 +182,13 @@ input,textarea {
     font-weight: bold;
     cursor: pointer;
 }
-
 div h2 {
     text-align: center;
     padding: 10px;
+    padding:10px;
 }
+
+
 @media (max-width:426px){
     .container1{
         width:90%;
@@ -185,5 +196,4 @@ div h2 {
     input,textarea{
        width:70% 
     }
-
 }
